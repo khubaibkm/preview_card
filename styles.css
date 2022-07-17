@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.attribution{
+    width: 19rem;
+    height: 33.5rem;
+    background-color:  hsl(216, 50%, 16%);
+    margin: auto;
+    align-items: center;
+    position: relative;
+    top: 6rem;
+    border-radius: 16px;
+}
+
+.eq{
+    width: 16.5rem;
+    margin: auto;
+    display: block;
+    align-items: center;
+    position: relative;
+    top: 22px;
+    border-radius: 10px;
+}
+
+.ic{
+    position: relative;
+    top: 127px;
+}
+
+.clock{
+    position: relative;
+    top: 127px;
+    left: 195px;
+}
+
+.eye{
+    position: absolute;
+    bottom: 358px;
+    left: 128px;
+    opacity: 0;
+}
+
+.pic{
+    width: 30px;
+    position: relative;
+    top: 210px;
+    left: -10px;
+    border: 1px solid white; 
+    border-radius: 20px;
+}
+
+.i{
+    position: relative;
+    top: 5px;
+    left: 22px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ii{
+    position: relative;
+    top: 22px;
+    left: 22px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.iii{
+    position: relative;
+    top: 42px;
+    left: 40px;
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.iv{
+    position: relative;
+    top: 23px;
+    left: 220px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+hr{
+    position: relative;
+    top: 50px;
+    margin: 0 22px 0 22px;
+    border: none;
+    height: .07px;
+    background-color: hsl(216, 26%, 34%);
+}
+
+.v{
+    position: relative;
+    top: 80px;
+    left: 75px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.v font{
+    color: white;
+}
+
+.i font:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.v font:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.eq:hover{
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(0, 255, 255));
+    cursor: pointer;
+}
+ 
+.eye:hover{
+    opacity: 1;
+    cursor: pointer;
+}
